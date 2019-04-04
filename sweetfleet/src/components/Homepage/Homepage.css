@@ -1,0 +1,13 @@
+.birthday {
+  width: 95%;
+  height: 40em;
+}
+
+.premade {
+  width: 30%;
+  height: 30em;
+}
+
+.box {
+  display: block;
+}
