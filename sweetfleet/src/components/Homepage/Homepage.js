@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class Homepage extends Component {
-	render() {
-		return <div />;
-	}
+  render() {
+    return <div />;
+  }
 }
 
 export default Homepage;

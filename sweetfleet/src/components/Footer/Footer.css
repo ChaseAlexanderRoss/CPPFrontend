@@ -1,0 +1,22 @@
+.footerContainer {
+  display: flex;
+  background-color: palevioletred;
+  justify-content: space-between;
+  height: 170px;
+  width: 1250px;
+  flex-direction: row;
+}
+h4,
+li,
+p {
+  font-family: "Futura-Medium", "Futura Medium", "Futura";
+  font-weight: 500;
+  font-style: normal;
+  color: #fff3fc;
+}
+h4 {
+  font-weight: 700;
+}
+a {
+  text-decoration: none;
+}
