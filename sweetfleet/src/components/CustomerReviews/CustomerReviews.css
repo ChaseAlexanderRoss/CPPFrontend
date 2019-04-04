@@ -1,0 +1,15 @@
+.customerReviews {
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr 8fr;
+  grid-template-rows: auto;
+  width: 1250px;
+  height: 220px;
+  margin: 10px 0px;
+  padding: 40px 0px 5px 0px;
+  background-color: rgba(221, 215, 198, 1);
+}
+p {
+  font-family: "Futura-Medium", "Futura Medium", "Futura";
+  font-weight: 500;
+  font-style: normal;
+}
