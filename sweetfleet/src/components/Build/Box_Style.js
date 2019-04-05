@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Build.css";
+import "./Box_Style.css";
 
 class Box_Style extends Component {
 	render() {

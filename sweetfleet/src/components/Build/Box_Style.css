@@ -29,17 +29,17 @@
 	font-size: 16px;
 }
 .box_design > div {
-	display: flex;
-	justify-content: space-evenly;
+	/* display: flex; */
+	/* justify-content: space-evenly; */
 }
 
 .box_design_name {
 	background: rgba(221, 155, 183, 1);
-	width: 100px;
+	/* width: 100px; */
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
 	font-size: 12px;
-	text-align: center;
+	/* text-align: center; */
 	padding: 3px 0;
 }
 
