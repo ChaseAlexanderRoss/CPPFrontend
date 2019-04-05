@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Box_Style from "../Build/Box_Style";
 import Sidebar from "../Sidebar/Sidebar";
+import "./Build.css";
 
 class Build extends Component {
 	constructor(props) {
@@ -25,28 +25,35 @@ class Build extends Component {
 					<em>Style Your Box</em>
 				</h2>
 				<Sidebar design_name={this.state.design_name} cost={this.state.cost} />
-				<div className="box_design">
+				<div className="pink_box">
 					<h3>CHOOSE BOX DESIGN</h3>
-					<div>
-						<Box_Style
-							image={"https://i.imgur.com/zhlanMv.jpgx"}
-							design="Cozy"
-							onClick={this.handleUpdate}
-							name="Cozy"
-						/>
+					<div className="all_designs">
+						<div className="design">
+							<img
+								src="https://i.imgur.com/zhlanMv.jpgx"
+								className="box_design_image"
+							/>
+							<span className="box_design_name">Cozy</span>
+						</div>
 
-						<Box_Style
-							image={"https://i.imgur.com/w8TO2zig.jpg"}
-							design="Congrats"
-						/>
-						<Box_Style
-							image={"https://i.imgur.com/Q1Jj26O.jpg"}
-							design="Natural"
-						/>
+						<div className="design">
+							<img
+								src="https://i.imgur.com/w8TO2zig.jpg"
+								className="box_design_image"
+							/>
+							<span className="box_design_name">Congrats</span>
+						</div>
+
+						<div className="design">
+							<img
+								src="https://i.imgur.com/Q1Jj26O.jpg"
+								className="box_design_image"
+							/>
+							<span className="box_design_name">Natural</span>
+						</div>
 					</div>
 				</div>
-
-				<div className="box_design">
+				<div className="pink_box">
 					<h3>
 						TITLE YOUR BOX <i class="fas fa-info-circle" />
 					</h3>
