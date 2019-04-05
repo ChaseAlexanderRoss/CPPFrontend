@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 import '../Header/Header.css';
-import '../Homepage/Homepage.css';
-import Homepage from '../Homepage/Homepage';
+import Footer from '../Footer/Footer';
+
+// import '../Homepage/Homepage.css';
+// import Homepage from '../Homepage/Homepage';
 import Header from '../Header/Header';
 
 class App extends Component {
@@ -10,7 +12,7 @@ class App extends Component {
     return (
       <div className='Home'>
         <Header />
-        <Homepage />
+        <Footer />
       </div>
     );
   }
