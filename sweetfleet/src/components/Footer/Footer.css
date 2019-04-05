@@ -14,10 +14,21 @@ p {
   font-weight: 500;
   font-style: normal;
   color: #fff3fc;
+  margin: 15px 60px;
+  font-size: 14px;
+  line-height: normal;
 }
+
 h4 {
   font-weight: 700;
+  font-family: "Futura-Medium", "Futura Medium", "Futura";
+  font-style: normal;
+  color: #fff3fc;
+  white-space: nowrap;
 }
 a {
   text-decoration: none;
+}
+img {
+  text-decoration-color: white;
 }

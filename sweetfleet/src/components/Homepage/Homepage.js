@@ -7,9 +7,10 @@ import {
   CardImgOverlay,
   Button,
 } from 'reactstrap';
-import Video from '../../Images/video.png';
 import './Homepage.css';
+import Video from '../../Images/video.png';
 import Shop from '../Shop/Shop';
+import CustomerReviews from '..//CustomerReviews/CustomerReviews';
 
 class Homepage extends Component {
   render() {
@@ -65,6 +66,7 @@ class Homepage extends Component {
         <div className='video'>
           <img className='video-img' src={Video} />
         </div>
+        <CustomerReviews />
       </div>
     );
   }
