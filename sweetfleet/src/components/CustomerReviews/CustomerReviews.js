@@ -1,16 +1,14 @@
-import React, { Component } from "react";
-import "./CustomerReviews.css";
+import React, { Component } from 'react';
+import './CustomerReviews.css';
+import Person from '../../Images/person.png';
+
 class CustomerReviews extends Component {
   render() {
     return (
       <div>
-        <div class="customerReviews">
+        <div class='customerReviews'>
           <div>
-            <img
-              id="u560_img"
-              class="img"
-              src="https://d2i72ju5buk5xz.cloudfront.net/gsc/2TLY0R/70/a9/c5/70a9c556b10540a5bab2cd3936f3ea8b/images/home/u557.png?token=3153d58d0d3dc5479914367f7ed84487"
-            />
+            <img id='u560_img' class='img' src={Person} />
           </div>
           <div>
             <p>
@@ -21,11 +19,7 @@ class CustomerReviews extends Component {
             </p>
           </div>
           <div>
-            <img
-              id="u560_img"
-              class="img"
-              src="https://d2i72ju5buk5xz.cloudfront.net/gsc/2TLY0R/70/a9/c5/70a9c556b10540a5bab2cd3936f3ea8b/images/home/u557.png?token=3153d58d0d3dc5479914367f7ed84487"
-            />
+            <img id='u560_img' class='img' src={Person} />
           </div>
           <div>
             <p>
@@ -36,11 +30,7 @@ class CustomerReviews extends Component {
             </p>
           </div>
           <div>
-            <img
-              id="u560_img"
-              class="img"
-              src="https://d2i72ju5buk5xz.cloudfront.net/gsc/2TLY0R/70/a9/c5/70a9c556b10540a5bab2cd3936f3ea8b/images/home/u557.png?token=3153d58d0d3dc5479914367f7ed84487"
-            />
+            <img id='u560_img' class='img' src={Person} />
           </div>
           <div>
             <p>
@@ -51,11 +41,7 @@ class CustomerReviews extends Component {
             </p>
           </div>
           <div>
-            <img
-              id="u560_img"
-              class="img"
-              src="https://d2i72ju5buk5xz.cloudfront.net/gsc/2TLY0R/70/a9/c5/70a9c556b10540a5bab2cd3936f3ea8b/images/home/u557.png?token=3153d58d0d3dc5479914367f7ed84487"
-            />
+            <img id='u560_img' class='img' src={Person} />
           </div>
           <div>
             <p>
