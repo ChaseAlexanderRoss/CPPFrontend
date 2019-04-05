@@ -25,7 +25,7 @@ class Homepage extends Component {
           <CardImgOverlay>
             <div className='btns'>
               <CardText className='text-muted'>
-                <h3>
+                <h3 className='sweet'>
                   Beautiful, customized packages <br /> full of cozy, memorable
                   presents
                 </h3>
@@ -38,7 +38,7 @@ class Homepage extends Component {
               </div>
               <br />
               <div className='buttons'>
-                <a className='link-build' href='./shop'>
+                <a className='link-build' href='./build'>
                   OR BUILD YOUR OWN
                 </a>
               </div>
