@@ -8,16 +8,19 @@
 	border-color: rgba(185, 129, 151, 1);
 	box-shadow: 5px 5px 5px rgba(153, 153, 153, 1);
 	padding: 10px;
+	float: right;
 }
 
-.sidebar .cost {
-	float: right;
-	font-weight: 700;
-}
 .sidebar h4 {
 	color: #b98197;
 	font-family: "Futura-Bold", "Futura Bold", "Futura";
 	font-size: 16px;
+	font-weight: 700;
+	margin: 0 !important;
+}
+
+.sidebar .cost {
+	float: right;
 	font-weight: 700;
 }
 
@@ -26,6 +29,8 @@
 	font-weight: 500;
 	font-style: normal;
 	color: #000000;
+	margin: 0 !important;
+	text-align: left !important;
 }
 
 .next_button {
