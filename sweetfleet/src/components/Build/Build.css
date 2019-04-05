@@ -13,8 +13,8 @@
 	background: rgba(255, 243, 252, 1);
 	border: 1px solid rgba(121, 121, 121, 1);
 	border-radius: 5px;
+	width: 75%;
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.349019607843137);
-	width: 789px;
 	padding: 10px;
 	margin-bottom: 20px;
 }
@@ -48,23 +48,21 @@
 	height: 67px;
 }
 
-.title_form {
-	background: rgba(215, 215, 215, 1);
-	width: 622px;
-	justify-self: center;
-}
-
-.title_form textarea {
-	margin: 20px;
-	width: 582px;
+textarea {
+	width: 85%;
 	min-height: 300px;
-	color: rgb(221, 215, 198);
-	font-size: 70px;
-	font-family: "serif";
-}
-
-.title_form textarea::placeholder {
+	border: 20px solid rgba(215, 215, 215, 1);
 	color: rgb(221, 215, 198);
 	font-size: 60px;
 	font-family: "serif";
+}
+
+textarea::placeholder {
+	color: rgb(221, 215, 198);
+	font-size: 60px;
+	font-family: "serif";
+}
+
+.sidebar {
+	float: right;
 }
