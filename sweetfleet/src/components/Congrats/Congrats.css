@@ -1,0 +1,51 @@
+.congrats-image-container {
+  display: flex;
+  margin-left: 250px;
+  margin-top: 75px;
+}
+
+.congrats-image-flex {
+  width: 375px;
+  /* margin-bottom: 75px; */
+}
+
+.flex-container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  width: 875px;
+}
+
+.grid-image {
+  width: 125px;
+  height: 125px;
+}
+.congrats-text {
+  margin-left: 50px;
+}
+.congrats-p {
+  width: 550px;
+}
+
+.congrats-buttons {
+  margin-left: 750px;
+  border-radius: 5px;
+  height: 40px;
+  width: 15%;
+  background-color: rgba(255, 0, 155, 1);
+  text-align: center;
+}
+
+.congrats-link-build {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.or {
+  margin-left: 750px;
+  border-radius: 5px;
+  height: 40px;
+  width: 15%;
+  text-align: center;
+}

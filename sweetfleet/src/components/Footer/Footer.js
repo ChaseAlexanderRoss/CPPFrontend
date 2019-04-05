@@ -9,7 +9,7 @@ class Footer extends Component {
           <div class='footerContainer'>
             <div class='aboutfleet'>
               <h4>About Sweet Fleet</h4>
-              <p>
+              <p className='paragraph-footer'>
                 Sweet fleet provides beautiful, customized packages <br />
                 full of cozy memorable presents to bring friends
                 <br />

@@ -12,7 +12,7 @@ class Shop extends Component {
           <div>
             <img className='cozy-image' src={Cozy} alt='sweetfleet' />
             <h3>
-              <a href='#' className='cozy-link'>
+              <a href='/cozy' className='cozy-link'>
                 COZY
               </a>
             </h3>
@@ -20,7 +20,7 @@ class Shop extends Component {
           <div>
             <img className='congrats-image' src={Congrats} alt='sweetfleet' />
             <h3>
-              <a className='congrats-link' href='#'>
+              <a className='congrats-link' href='/congrats'>
                 CONGRATS
               </a>
             </h3>
