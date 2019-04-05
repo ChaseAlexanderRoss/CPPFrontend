@@ -18,6 +18,10 @@
 	padding: 10px;
 	margin-bottom: 20px;
 }
+
+.pink_box > textarea {
+	align-self: center;
+}
 .all_designs {
 	display: flex;
 	flex-direction: row;
@@ -69,6 +73,7 @@ textarea::placeholder {
 	font-family: "Futura-Medium", "Futura Medium", "Futura";
 }
 
-.sidebar {
-	float: right;
+.title_form {
+	display: flex;
+	justify-content: center;
 }

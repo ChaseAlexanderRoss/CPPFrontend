@@ -57,7 +57,7 @@ class Build extends Component {
 					<h3>
 						TITLE YOUR BOX <i class="fas fa-info-circle" />
 					</h3>
-					<div>
+					<div className="title_form">
 						<textarea placeholder="Type Box Name Here" />
 					</div>
 				</div>
