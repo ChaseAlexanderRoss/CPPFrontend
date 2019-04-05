@@ -16,17 +16,21 @@
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.349019607843137);
 	width: 789px;
 	padding: 10px;
+	margin-bottom: 20px;
 }
 
 .box_design h3 {
 	font-size: 20px;
 	color: #333;
 	font-family: "Futura-Medium", "serif";
+	margin-bottom: 10px;
 }
-
+.box_design i {
+	font-size: 16px;
+}
 .box_design > div {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
 }
 
 .box_design_name {
@@ -42,4 +46,25 @@
 .box_design_image {
 	width: 100px;
 	height: 67px;
+}
+
+.title_form {
+	background: rgba(215, 215, 215, 1);
+	width: 622px;
+	justify-self: center;
+}
+
+.title_form textarea {
+	margin: 20px;
+	width: 582px;
+	min-height: 300px;
+	color: rgb(221, 215, 198);
+	font-size: 70px;
+	font-family: "serif";
+}
+
+.title_form textarea::placeholder {
+	color: rgb(221, 215, 198);
+	font-size: 60px;
+	font-family: "serif";
 }
