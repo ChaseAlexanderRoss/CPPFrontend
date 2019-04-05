@@ -13,4 +13,8 @@ p {
   font-family: 'Futura-Medium', 'Futura Medium', 'Futura';
   font-weight: 500;
   font-style: normal;
+  font-size: 13px;
+  color: #333333;
+  text-align: center;
+  line-height: normal;
 }
