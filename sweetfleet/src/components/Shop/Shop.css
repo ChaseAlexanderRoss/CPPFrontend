@@ -1,0 +1,34 @@
+.cozy-image {
+  width: 500px;
+}
+
+.cozy-link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  margin-top: 20px;
+}
+.congrats-image {
+  width: 508px;
+}
+
+.congrats-link {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-top: 20px;
+}
+
+.cozy-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.cozy-header {
+  text-align: center;
+  color: #b98197;
+  margin: 25px;
+}
