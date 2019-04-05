@@ -3,7 +3,7 @@ import Logo from "../../Images/Logo.png";
 import { Link, Route } from "react-router-dom";
 import Shop from "../Shop/Shop";
 import Homepage from "../Homepage/Homepage";
-import Build from "../Build/Build";
+import Build from "../Build-shop/Build";
 import Cart from "../../Images/Cart.png";
 
 class Header extends Component {

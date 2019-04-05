@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Box_Style from "./Box_Style";
+import Box_Style from "../Build/Box_Style";
 import Sidebar from "../Sidebar/Sidebar";
 
 class Build extends Component {
